@@ -10,4 +10,12 @@ body {
   height: 100vh;
   display: grid;
   place-content: center;
+.quiz-container {
+  width: clamp(400px, 80vw, 800px);
+  height: 500px;
+  border-radius: 5px;
+  background-color: $nord1;
+  padding: 10px;
+  display: grid;
+  grid-template: auto 1fr 20% / 1fr;
 }
